@@ -15,10 +15,6 @@ public class User {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "lastname")
-    private String lastname;
-
-
     @Column(name = "email", nullable = false, length = 100, unique = true)
     private String email;
 
@@ -40,14 +36,6 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getLastname() {
-        return lastname;
-    }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
     }
 
     public String getEmail() {

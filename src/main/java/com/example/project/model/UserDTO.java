@@ -7,8 +7,6 @@ public class UserDTO {
     @NotNull
     private String name;
     @NotNull
-    private String lastname;
-    @NotNull
     private String email;
     @NotNull
     private String password;
@@ -27,14 +25,6 @@ public class UserDTO {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getLastname() {
-        return lastname;
-    }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
     }
 
     public String getEmail() {
